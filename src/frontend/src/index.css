@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.625rem;
+    --background: 0.138 0.038 255.8;
+    --foreground: 0.95 0.012 265;
+    --card: 0.165 0.042 258;
+    --card-foreground: 0.95 0.012 265;
+    --popover: 0.165 0.042 258;
+    --popover-foreground: 0.95 0.012 265;
+    --primary: 0.76 0.14 85;
+    --primary-foreground: 0.138 0.038 255.8;
+    --secondary: 0.22 0.042 258;
+    --secondary-foreground: 0.95 0.012 265;
+    --muted: 0.22 0.042 258;
+    --muted-foreground: 0.65 0.02 258;
+    --accent: 0.76 0.14 85;
+    --accent-foreground: 0.138 0.038 255.8;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.28 0.05 258;
+    --input: 0.28 0.05 258;
+    --ring: 0.76 0.14 85;
+    --chart-1: 0.76 0.14 85;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.138 0.038 255.8;
+    --sidebar-foreground: 0.95 0.012 265;
+    --sidebar-primary: 0.76 0.14 85;
+    --sidebar-primary-foreground: 0.138 0.038 255.8;
+    --sidebar-accent: 0.22 0.042 258;
+    --sidebar-accent-foreground: 0.95 0.012 265;
+    --sidebar-border: 0.28 0.05 258;
+    --sidebar-ring: 0.76 0.14 85;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+@layer utilities {
+  .gold-gradient {
+    background: linear-gradient(135deg, #d4af37, #f0d060, #b88b2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .btn-gold {
+    background: linear-gradient(135deg, #d4af37, #b88b2a);
+    color: #0b1327;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  .btn-gold:hover {
+    background: linear-gradient(135deg, #f0d060, #d4af37);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
+  }
+  .btn-outline-gold {
+    border: 2px solid #d4af37;
+    color: #d4af37;
+    background: transparent;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  .btn-outline-gold:hover {
+    background: rgba(212, 175, 55, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+  }
+  .card-navy {
+    background-color: #111e3a;
+    border: 1px solid #2a3a5a;
+  }
+  .fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  .fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .ornament-bg {
+    background-image: radial-gradient(
+        ellipse at 20% 50%,
+        rgba(212, 175, 55, 0.03) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse at 80% 20%,
+        rgba(212, 175, 55, 0.05) 0%,
+        transparent 50%
+      );
+  }
+}
