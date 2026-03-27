@@ -7,7 +7,7 @@ const testimonials = [
     city: "Jakarta",
     avatar: "AG",
     quote:
-      "Jujur, saya awalnya skeptis. Tapi setelah coba teknik RTP tinggi dari Rajawin, dalam seminggu pertama saya sudah balik modal 3x lipat. Yang bikin beda adalah pendekatannya yang sistematis — bukan cuma coba-coba seperti sebelumnya. Sekarang slot sudah jadi sumber penghasilan tambahan yang cukup konsisten.",
+      "Jujur, saya awalnya skeptis. Tapi setelah coba teknik RTP tinggi dari Rajawin, dalam seminggu pertama saya sudah balik modal 3x lipat. Yang bikin beda adalah pendekatan sistematis Rajawin — bukan cuma coba-coba seperti sebelumnya. Sekarang Rajawin sudah jadi andalan untuk penghasilan tambahan yang konsisten.",
     win: "Profit: Rp 8.500.000",
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     city: "Surabaya",
     avatar: "SM",
     quote:
-      "Dulu sering habis modal dalam 30 menit karena tidak punya strategi. Setelah belajar manajemen bankroll dari Rajawin, saya bisa bertahan jauh lebih lama dan konsisten profit. Tips Piramida Bankroll-nya benar-benar mengubah cara saya bermain. Sudah 4 bulan konsisten profit!",
+      "Dulu sering habis modal dalam 30 menit karena tidak punya strategi. Setelah belajar manajemen bankroll dari Rajawin, saya bisa bertahan jauh lebih lama dan konsisten profit. Tips Piramida Bankroll Rajawin benar-benar mengubah cara saya bermain. Sudah 4 bulan konsisten profit bersama Rajawin!",
     win: "Profit: Rp 12.200.000",
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     city: "Bali",
     avatar: "DK",
     quote:
-      "Saya sudah coba berbagai platform, tapi Rajawin benar-benar berbeda. Analisis mesin yang mereka berikan sangat detail dan actionable. Pertama kali saya coba, langsung dapat jackpot kecil. Yang lebih penting, saya sekarang lebih disiplin dan jarang rugi besar. Community-nya juga aktif banget!",
+      "Saya sudah coba berbagai platform, tapi Rajawin benar-benar berbeda. Analisis mesin yang Rajawin berikan sangat detail dan actionable. Pertama kali saya coba Rajawin, langsung dapat jackpot kecil. Community Rajawin juga aktif banget — saling support setiap hari!",
     win: "Profit: Rp 6.700.000",
   },
 ];
@@ -43,8 +43,8 @@ export function TestimoniSection() {
               <span style={{ color: "#D4AF37" }}>Member Rajawin</span>
             </h2>
             <p className="max-w-2xl mx-auto" style={{ color: "#AAB4C8" }}>
-              Bukan testimoni palsu. Ini cerita nyata dari member kami yang
-              berani berbagi perjalanan mereka bersama Rajawin.
+              Bukan testimoni palsu. Ini cerita nyata dari member Rajawin yang
+              berani berbagi perjalanan sukses mereka bersama Rajawin.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -108,7 +108,7 @@ export function TestimoniSection() {
               className="btn-outline-gold px-8 py-4 rounded-xl text-base inline-flex items-center gap-2"
               ocid="testimoni.primary_button"
             >
-              Bergabung & Raih Kesuksesanmu
+              Bergabung & Raih Kesuksesan Bersama Rajawin
             </CTALink>
           </div>
         </div>

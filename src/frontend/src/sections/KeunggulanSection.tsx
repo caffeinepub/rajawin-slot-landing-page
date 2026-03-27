@@ -4,33 +4,33 @@ import { useInView } from "../hooks/useInView";
 const benefits = [
   {
     icon: "🎁",
-    title: "Bonus Terbesar",
-    desc: "Bonus selamat datang hingga 200% + cashback mingguan + hadiah loyalitas eksklusif yang tidak ada di tempat lain.",
+    title: "Bonus Rajawin Terbesar",
+    desc: "Bonus selamat datang Rajawin hingga 200% + cashback mingguan + hadiah loyalitas eksklusif yang tidak ada di platform lain.",
   },
   {
     icon: "🚀",
     title: "Proses Cepat",
-    desc: "Deposit & withdraw diproses dalam hitungan menit, 24/7. Tidak ada waiting time yang bikin frustrasi.",
+    desc: "Deposit & withdraw di Rajawin diproses dalam hitungan menit, 24/7. Tidak ada waiting time yang bikin frustrasi.",
   },
   {
     icon: "🛡️",
     title: "Keamanan Terjamin",
-    desc: "Enkripsi SSL 256-bit, dua faktor autentikasi, dan sistem anti-fraud canggih melindungi akun dan dana kamu.",
+    desc: "Enkripsi SSL 256-bit, dua faktor autentikasi, dan sistem anti-fraud canggih Rajawin melindungi akun dan dana kamu.",
   },
   {
     icon: "💎",
     title: "Koleksi Slot Terlengkap",
-    desc: "500+ judul slot dari provider terkemuka: Pragmatic Play, PG Soft, Habanero, dan masih banyak lagi.",
+    desc: "500+ judul slot di Rajawin dari provider terkemuka: Pragmatic Play, PG Soft, Habanero, dan masih banyak lagi.",
   },
   {
     icon: "🎓",
-    title: "Panduan Eksklusif",
-    desc: "Akses perpustakaan strategi premium, webinar bulanan bersama analis slot berpengalaman, dan update rutin.",
+    title: "Panduan Eksklusif Rajawin",
+    desc: "Akses perpustakaan strategi premium Rajawin, webinar bulanan bersama analis slot berpengalaman, dan update rutin.",
   },
   {
     icon: "📞",
-    title: "CS 24/7",
-    desc: "Tim support profesional siap membantu kapanpun. Live chat, WhatsApp, email — semua direspons dalam 3 menit.",
+    title: "CS Rajawin 24/7",
+    desc: "Tim support profesional Rajawin siap membantu kapanpun. Live chat, WhatsApp, email — semua direspons dalam 3 menit.",
   },
 ];
 
@@ -53,8 +53,9 @@ export function KeunggulanSection() {
               <span style={{ color: "#D4AF37" }}>vs Platform Lain</span>
             </h2>
             <p className="max-w-2xl mx-auto" style={{ color: "#AAB4C8" }}>
-              Rajawin bukan sekadar platform slot biasa. Ini adalah ekosistem
-              lengkap untuk memaksimalkan peluang menangmu.
+              Rajawin bukan sekadar platform slot biasa. Rajawin adalah
+              ekosistem lengkap untuk memaksimalkan peluang menangmu dengan
+              strategi terbukti.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -83,7 +84,7 @@ export function KeunggulanSection() {
               className="btn-gold px-8 py-4 rounded-xl text-base inline-flex items-center gap-2"
               ocid="keunggulan.primary_button"
             >
-              🎁 Klaim Bonus Selamat Datang
+              🎁 Klaim Bonus Rajawin Sekarang
             </CTALink>
           </div>
         </div>
